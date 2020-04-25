@@ -1,0 +1,53 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+	<head>
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+
+	<body>
+		<!-- 页面头部 -->
+		<jsp:include page="top.jsp"></jsp:include>
+
+		<!-- 页面内容 -->
+		<table border="0" width="100%" height="50%" align="center">
+			<tr>
+				<td align="center" >
+				<font size="7" face="STCaiyun">
+				欢迎您登录到人力资源管理系统！
+				</font>
+				</td>
+			</tr>
+		</table>
+
+		<!-- 页面底部 -->
+		
+<table width="100%" height=15% border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><hr></td>
+  </tr>
+  <tr>
+    <td align="center">©版权所有</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+
+
+</table>
+	</body>
+</html>
