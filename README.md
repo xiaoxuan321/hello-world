@@ -8,3 +8,5 @@ project for IT homework
 增加了AddDeptServlet,用于实现增加新的部门功能。 2020/4/27  11:00
 
 增加了DelJobServlet，用于实现删除职务的功能。 2020/4/27  11：15
+
+增加了DelDeptServert,用于实现删除部门的功能。2020/4/27 15:41
