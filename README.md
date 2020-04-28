@@ -12,3 +12,5 @@ project for IT homework
 增加了DelDeptServert,用于实现删除部门的功能。2020/4/27 15:41
 
 增加了AddEmpServlet1，将原来增加新的任职关系页面中职务和部门信息需要输入改为通过下拉选项直接选择。 2020/4/27 17:23
+
+增加了AddJobsServlet，用于时间增加新职务的功能。2020/4/28 21:36
